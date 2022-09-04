@@ -1,0 +1,37 @@
+seed:                     42
+
+agent:                    'hint_dual_bert'
+task:                     'hint_policy_lm_multiwoz'
+tokenizer:                'bert'
+
+sequence_tokens:          True
+differential_belief:      True
+delexicalize_response:    True
+context_length:           5
+system_prefix:            '[SYS]'
+user_prefix:              '[USR]'
+database_prefix:          '[DB]'
+belief_state_prefix:      '[BS]'
+last_user_prefix:         '[USR]'
+#response_prefix:         '[RES]'
+
+transforms:           
+ - name:                  'context_dropout'
+   preserve_latest:       False
+   dropout_ratio:         0.05
+ - name:                  'state_dropout'
+   dropout_ratio:         0.05
+
+pooling:                  'average'
+similarity_scale:         13.0
+
+epochs:                   6
+batch_size:               48
+accumulation_steps:       1
+learning_rate:            0.00005
+weight_decay:             1.0e-5
+num_warmup_steps:         1100 
+num_training_steps:       7000 
+
+output_dropout:           0.0
+output_dim:               128

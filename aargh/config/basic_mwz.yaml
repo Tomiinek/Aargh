@@ -1,0 +1,10 @@
+task:                     'hint_double_lm_multiwoz'
+tokenizer:                't5'
+
+sequence_tokens:          True
+differential_belief:      True
+delexicalize_response:    True
+context_length:           25
+system_prefix:            '<|system|>'
+user_prefix:              '<|user|>'
+response_prefix:          '<|system|>'

@@ -1,3 +1,13 @@
+# Custom
+
+aargh/data/.*
+aargh/outputs/
+aargh/checkpoints/
+*.pkl
+aargh/scripts/**/*.json
+aargh/scripts/**/*.txt
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

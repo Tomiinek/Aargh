@@ -1,0 +1,42 @@
+seed:                     42
+
+agent:                    'hint_goal_double_medium_t5'
+task:                     'hint_double_lm_multiwoz'
+tokenizer:                't5'
+
+sequence_tokens:          True
+differential_belief:      True
+delexicalize_response:    True
+context_length:           5
+system_prefix:            '<|system|>'
+user_prefix:              '<|user|>'
+response_prefix:          '<|system|>'
+hint_prefix:              '<|hint|>'
+hint_path:                null
+
+transforms:
+  - name:                 'hint_to_response'
+    rate:                 0.05
+
+greedy:                   True
+num_beams:                8
+
+embedded_hint_predictor:  True
+action_loss_weight:       1
+num_actions:              6
+num_examples_per_action:  7
+splitted_encoder_depth:   2
+splitted_embedding_dim:   4
+min_num_examples_per_action: 250
+similarity_scale:         13
+output_dropout:           0.0
+output_dim:               128
+
+epochs:                   8
+batch_size:               42
+accumulation_steps:       2
+gradient_clipping:        0.0
+learning_rate:            0.0005
+weight_decay:             1.0e-5
+num_warmup_steps:         3500
+num_training_steps:       24500
