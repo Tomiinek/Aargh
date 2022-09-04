@@ -18,7 +18,7 @@ pip install -e .
 
 ## :muscle: Training
 
-We provide model weights of our best performing AARGH model with high and low blending parameter. You can download it [here]() and [here](), respectively. The models should give Inform 82.8, Success: 71.2, and Inf: 90.3, Succ: 71.7 when evaluating in greedy mode on the test set. 
+We provide model weights of our best performing AARGH model with low and high blending parameter. You can download it [here](https://drive.google.com/file/d/19vtX8ZiK1lcevinXEC40-kYUyEHY2xpV/view?usp=sharing) and [here](https://drive.google.com/file/d/18CQA4UIatKpcY2Bqm9j8FWVtXs88w86r/view?usp=sharing), respectively. The models should give Inform 82.8, Success: 71.2, and Inf: 90.3, Succ: 71.7 when evaluating in greedy mode on the test set. 
 
 ### **0. What do you want to train?**
 
