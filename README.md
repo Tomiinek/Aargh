@@ -1,6 +1,6 @@
 <h1 align="center">AARGH! </h1>
 <h3 align="center">End-to-end Retrieval-Generation for Task-Oriented Dialog</h3>
-<h4 align="center">~ <a href='https://arxiv.org/abs/'>See the paper</a> ~</h4>
+<h4 align="center">~ <a href='_pdfs/aargh.pdf'>See the paper</a> ~</h4>
 
 <p>&nbsp;</p>
 
