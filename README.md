@@ -6,7 +6,7 @@
 
 _______
 
-This repository provides the code including the training and evaluation scripts associated with the paper [AARGH! End-to-end Retrieval-Generation for Task-Oriented Dialog](https://arxiv.org/abs/). It also contains the model weights of our best-performing Action-Aware Retrieval-Generative Hybrid model.   
+This repository provides the code including the training and evaluation scripts associated with the paper [AARGH! End-to-end Retrieval-Generation for Task-Oriented Dialog](_pdfs/aargh.pdf). It also contains the model weights of our best-performing Action-Aware Retrieval-Generative Hybrid model.   
 
 ##  :hourglass: Installation
 
@@ -136,4 +136,14 @@ python scripts/eval_clustering.py ${out_path} ${fold} "${out_path}/${fold}_clust
 
 # :thought_balloon: Citation
 
-TBD after the SIGDIAL 2022 conference.
+```
+@inproceedings{nekvinda_aargh_2022,
+	address = {Edinburgh, Scotland},
+	title = {{AARGH}! {End}-to-end {Retrieval}-{Generation} for {Task}-{Oriented} {Dialog}},
+	booktitle = {Proceedings of the {SIGdial} 2022 Conference},
+	author = {Nekvinda, Tomáš and Dušek, Ondřej},
+	month = sep,
+	year = {2022},
+	pages = {283--297},
+}
+```
