@@ -11,7 +11,7 @@ wandb
 numpy
 psutil
 python-Levenshtein
-pytorch-lightning==1.3.8
+pytorch-lightning==1.6.0
 torchmetrics==0.6.2
 PyYAML
 regex
