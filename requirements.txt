@@ -6,7 +6,7 @@ streamlit
 titlecase
 torch
 tqdm
-transformers==4.9.2
+transformers==4.36.0
 wandb
 numpy
 psutil
